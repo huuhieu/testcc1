@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.example.project01"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/sort_ascend" android:debuggable="true">
+        <activity android:label="@string/title_activity_project01" android:name=".Project01">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Choice" />
+        <activity android:name=".Array_screen" />
+        <activity android:name=".Sort_screen" />
+        <activity android:name=".Result" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

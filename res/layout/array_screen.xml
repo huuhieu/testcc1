@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="No sortings is processing"
+        android:textColor="#FF6600"
+        android:textSize="15dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Now we have "
+            android:textColor="#15216D"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No"
+            android:textColor="#15216D"
+            android:textSize="13dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" numbers."
+            android:textColor="#15216D"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" Press Next to continue."
+            android:textColor="#15216D"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_x="0dp"
+            android:layout_y="120dp"
+            android:gravity="center"
+            android:text="Array number goes here"
+            android:textColor="#FF6600"
+            android:textSize="26dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_x="172dp"
+            android:layout_y="238dp"
+            android:onClick="btNext"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_x="86dp"
+            android:layout_y="238dp"
+            android:onClick="btNew"
+            android:text="New" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>
